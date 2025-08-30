@@ -48,7 +48,7 @@
             # PermitRootLogin = "no";
             # PasswordAuthentication = false;
         };
-        openFirewall = true;
+        #openFirewall = true;
     };
 
     environment.systemPackages = with pkgs; [
