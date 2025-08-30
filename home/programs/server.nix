@@ -11,7 +11,7 @@
             password = "secretpw";
         };
     };
-    networking.firewall.allowedTCPPorts = [ 8384 ];
+    #networking.firewall.allowedTCPPorts = [ 8384 ];
 
 }
 
