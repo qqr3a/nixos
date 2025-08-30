@@ -3,6 +3,8 @@
         home-manager
 
         file
+        zoxide
+        powerstat
     ];
 
 
@@ -45,18 +47,13 @@
         };
 
         btop.enable = true; # replacement of htop/nmon
+        eza.enable = true; # A modern replacement for ‘ls’
         jq.enable = true; # A lightweight and flexible command-line JSON processor
         aria2.enable = true;
     };
 
     services = {
-        syncthing = {
-            enable = true;
-            settings.gui = {
-                user = "qqr3a";
-                password = "mypassword";
-            };
-        };
+        syncthing.enable = true;
 
         # auto mount usb drives
         udiskie.enable = true;
