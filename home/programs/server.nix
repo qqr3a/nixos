@@ -5,7 +5,7 @@
 
     services.syncthing = {
         enable = true;
-        guiAddress = "0.0.0.0:8384";  # works on all local IPs
+        guiAddress = "0.0.0.0:8384"; 
         settings.gui = {
             user = "admin";
             password = "secretpw";

@@ -8,6 +8,7 @@
         imagemagick
         pywal16
         firefox
+        ungoogled-chromium
         ghostty
         #kdePackages.dolphin
         pavucontrol
