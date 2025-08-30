@@ -22,7 +22,7 @@
     packages."x86_64-linux".default = 
       (nvf.lib.neovimConfiguration {
         pkgs = nixpkgs.legacyPackages."x86_64-linux";
-        modules = [ ./home/nvim/default.nix];
+        modules = [ ./home/nvim/nvim.nix];
     }).neovim;
 
     nixosConfigurations = {
