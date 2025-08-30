@@ -41,15 +41,15 @@
 
     networking.firewall.enable = false;
 
-    #services.openssh = {
-     #   enable = true;
-      #  settings = {
+    services.openssh = {
+        enable = true;
+        settings = {
             # X11Forwarding = true;
             # PermitRootLogin = "no";
             # PasswordAuthentication = false;
-       # };
+        };
         #openFirewall = true;
-    #};
+    };
 
     environment.systemPackages = with pkgs; [
         wget
