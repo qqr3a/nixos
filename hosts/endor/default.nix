@@ -9,8 +9,9 @@
     ];
 
     boot = {
+        loader.systemd-boot.enable = true;
         loader.efi.canTouchEfiVariables = true;
-        loader.grub.enable = true;
+        loader.grub.enable = false;
         kernelPackages = pkgs.linuxPackages_latest;
     };
 
