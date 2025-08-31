@@ -15,18 +15,19 @@
         kernelPackages = pkgs.linuxPackages_latest;
     };
 
-    environment.systemPackages = with pkgs; [
-        intel-undervolt
-    ];
+    #environment.systemPackages = with pkgs; [
+     
+     #   intel-undervolt
+    #];
 
 
-    services.intel-undervolt = {
+    services.undervolt = {
         enable = true;
-        settings = {
-            "CPU" = -80;
-            #"GPU" = -50;
-        };
-        };
+        coreOffset = -80; 
+        gpuOffset = -50;   
+        uncoreOffset = -80;
+        useTimer = true; 
+    };
 
     networking = {
         hostName = "Endor";
