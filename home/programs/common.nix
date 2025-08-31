@@ -53,7 +53,10 @@
     };
 
     services = {
-        syncthing.enable = true;
+        syncthing = {
+            enable = true;
+
+        };
 
         # auto mount usb drives
         udiskie.enable = true;
@@ -61,4 +64,3 @@
 
 
 }
-

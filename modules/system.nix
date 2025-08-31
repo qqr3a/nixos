@@ -46,9 +46,9 @@
         settings = {
             # X11Forwarding = true;
             # PermitRootLogin = "no";
-            # PasswordAuthentication = false;
+            PasswordAuthentication = false;
         };
-        #openFirewall = true;
+        openFirewall = true;
     };
 
     environment.systemPackages = with pkgs; [

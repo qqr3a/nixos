@@ -14,6 +14,7 @@
         pavucontrol
         wireplumber
         xdg-desktop-portal-wlr 
+        logseq
     ];
 
     home.file.".config/ghostty/config".text = ''
