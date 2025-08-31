@@ -12,6 +12,8 @@
         ghostty
         #kdePackages.dolphin
         pavucontrol
+        wireplumber
+        xdg-desktop-portal-wlr 
     ];
 
     home.file.".config/ghostty/config".text = ''
