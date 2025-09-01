@@ -5,7 +5,6 @@
 
     services.syncthing = {
         enable = true;
-        user = "admin";     
         guiAddress = "0.0.0.0:8384"; 
         settings.gui = {
             user = "admin";
