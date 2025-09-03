@@ -3,13 +3,12 @@
         bluez
         blueman
         spotify
-        discord
         vscode
         imagemagick
         pywal16
         firefox
         ghostty
-        #kdePackages.dolphin
+        kdePackages.dolphin
         pavucontrol
         wireplumber
         xdg-desktop-portal-wlr 

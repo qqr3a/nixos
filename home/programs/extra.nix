@@ -1,7 +1,8 @@
-{ lib, pkgs, config, username, ...}: {
-    home.packages = with pkgs; [
+{ pkgs, ...}: {
+    environment.systemPackages = with pkgs; [
         ungoogled-chromium
         logseq
+        discord
         
     ];
 }
