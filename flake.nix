@@ -57,6 +57,37 @@
           };
         };
 
+      Tantiss = let
+        username = "yousef";
+
+      in
+        nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+
+            ./hosts/kamino/default.nix
+            home-manager.nixosModules.home-manager
+              {
+                home-manager.useGlobalPkgs = true;
+                home-manager.useUserPackages = true;
+                home-manager.extraSpecialArgs = {
+                  inherit username;
+                } // inputs;
+
+                home-manager.users.${username} = import ./users/${username}/home.nix;
+
+                # Optionally, use home-manager.extraSpecialArgs to pass arguments to home.nix
+              }
+              nvf.nixosModules.default
+            
+          ];
+          specialArgs = {
+            inherit username;
+            caelestiaShell = caelestia-shell.packages.x86_64-linux.default;
+            caelestiaCLI   = caelestia-cli.packages.x86_64-linux.default;
+          };
+        };
+
       Endor = let
         username = "admin";
 
