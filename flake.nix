@@ -65,7 +65,7 @@
           system = "x86_64-linux";
           modules = [
 
-            ./hosts/kamino/default.nix
+            ./hosts/tantiss/default.nix
             home-manager.nixosModules.home-manager
               {
                 home-manager.useGlobalPkgs = true;
