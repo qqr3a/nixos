@@ -27,7 +27,5 @@
         confirm-close-surface = false
         initial-command = "fastfetch; exec zsh"
     '';   
-    programs.appimage.enable = true;
-    programs.appimage.binfmt = true;
 }
 

@@ -51,6 +51,7 @@
         systemPackages = with pkgs; [
             caelestiaShell
             caelestiaCLI
+            appimage-run
         ];
         variables.EDITOR = "nvim";
     };
