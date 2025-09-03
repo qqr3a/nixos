@@ -5,7 +5,10 @@
     ../../home/core.nix
     
     ../../home/programs/common.nix
-
+    ../../home/programs/desktop.nix
+    ../../home/hypr
+    ../../home/caelestia
+    ../../home/shell
   ];
 
   programs.git = {
