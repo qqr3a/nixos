@@ -13,6 +13,10 @@
     caelestia-cli.url = "github:caelestia-dots/cli";
 
     nvf.url = "github:notashelf/nvf";
+    nur = {
+      url = "github:nix-community/NUR";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     
   };
 

@@ -12,7 +12,6 @@
         pavucontrol
         wireplumber
         xdg-desktop-portal-wlr 
-        logseq
 
     ];
 
