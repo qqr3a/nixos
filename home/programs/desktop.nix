@@ -8,13 +8,11 @@
         imagemagick
         pywal16
         firefox
-        ungoogled-chromium
         ghostty
         #kdePackages.dolphin
         pavucontrol
         wireplumber
         xdg-desktop-portal-wlr 
-        logseq
     ];
 
     home.file.".config/ghostty/config".text = ''

@@ -1,19 +1,8 @@
 { lib, pkgs, config, username, ...}: {
     home.packages = with pkgs; [
-        bluez
-        blueman
-        spotify
-        discord
-        vscode
-        imagemagick
-        pywal16
-        firefox
-        ghostty
-        #kdePackages.dolphin
-        pavucontrol
-        wireplumber
-        xdg-desktop-portal-wlr 
-        #logseq
+        ungoogled-chromium
+        logseq
+        
     ];
 
     home.file.".config/ghostty/config".text = ''
