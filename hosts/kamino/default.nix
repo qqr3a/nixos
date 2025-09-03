@@ -7,6 +7,8 @@
         ../../modules/system.nix
         ../../modules/hypr.nix
         ./hardware-configuration.nix
+        ../../home/programs/extra.nix
+
 
     ];
 

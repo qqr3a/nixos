@@ -9,7 +9,6 @@
     ../../home/hypr
     ../../home/caelestia
     ../../home/shell
-    ../../home/programs/extra.nix
 
   ];
 
