@@ -5,9 +5,7 @@
     ../../home/core.nix
     
     ../../home/programs/common.nix
-    ../../home/hypr
-    ../../home/caelestia
-    ../../home/shell
+
   ];
 
   programs.git = {
