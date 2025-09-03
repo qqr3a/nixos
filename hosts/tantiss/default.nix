@@ -7,6 +7,10 @@
         ../../modules/system.nix
         ../../modules/hypr.nix
         ./hardware-configuration.nix
+        ../../home/programs/school.nix
+        ../../home/hypr
+        ../../home/caelestia
+        ../../home/shell
     ];
 
     boot = {
