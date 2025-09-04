@@ -99,7 +99,7 @@
         "showOnHover": true,
         "status": {
             "showAudio": false,
-            "showBattery": false,
+            "showBattery": true,
             "showBluetooth": true,
             "showKbLayout": false,
             "showNetwork": true
