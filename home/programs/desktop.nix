@@ -12,7 +12,7 @@
         pavucontrol
         wireplumber
         xdg-desktop-portal-wlr 
-        
+        flatpak
     ];
 
     home.file.".config/ghostty/config".text = ''
