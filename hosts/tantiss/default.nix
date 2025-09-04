@@ -36,6 +36,7 @@
             alsa.support32Bit = true;
             pulse.enable = true;
         };
+        flatpak.enable = true;
     };
     xdg.portal = {
         enable = true;
