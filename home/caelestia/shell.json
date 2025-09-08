@@ -163,8 +163,8 @@
         "hideDelay": 2000
     },
     "paths": {
-        "mediaGif": "root:/assets/bongocat.gif",
-        "sessionGif": "root:/assets/kurukuru.gif",
+        "mediaGif": "root:/assets/e.gif",
+        "sessionGif": "root:/assets/e.gif",
         "wallpaperDir": "~/Pictures/Wallpapers"
     },
     "services": {

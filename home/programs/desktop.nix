@@ -13,6 +13,7 @@
         wireplumber
         xdg-desktop-portal-wlr 
         flatpak
+        anki-bin
     ];
 
     home.file.".config/ghostty/config".text = ''
