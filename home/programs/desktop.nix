@@ -13,6 +13,7 @@
         wireplumber
         xdg-desktop-portal-wlr 
         flatpak
+        prismlauncher
         anki-bin
     ];
 
